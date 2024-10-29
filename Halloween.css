@@ -17,6 +17,8 @@ body {
 
 .title{
     width: fit-content;
+    font-weight: bold;
+    font-size: 18pt;
 }
 .boutons {
     max-width: 90vw;
@@ -24,8 +26,8 @@ body {
     flex-wrap: wrap;
 }
 #texte1{
-    width: 60%;
-    min-width: 400px;
+    width: 400px;
+    max-width: 90vw;
     align-content: center;
     font-size: larger;
     background-color: white;
