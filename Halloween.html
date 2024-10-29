@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "Halloween.css"> 
+    <title>Halloween</title>
+
+<!-- import de la bibliothèque jQuery -->
+<script type="text/javascript" src="jquery-3.3.1.js"></script>
+
+<!-- définition des fonctions en JavaScript jQuery -->
+<script type="text/javascript">
+
+    function hide1(){
+    $('#bouton2').hide()
+    $('#bouton3').hide()
+    $('#réponse1').toggle()
+     }
+
+     function hide2(){
+    $('#bouton1').hide()
+    $('#bouton3').hide()
+    $('#réponse2').toggle()
+     }
+
+     function hide3(){
+    $('#bouton2').hide()
+    $('#bouton1').hide()
+    $('#réponse3').toggle()
+     }
+
+
+
+</script>
+
+</head>
+
+<body> 
+
+<h1> Bienvenue à toi, biologiste !</h1>
+
+<div id="image"> 
+    <p id="texte1"> Ta mission est d'envoyer un élément en laboratoire pour faire analyser les traces ADN...
+    Tu obtiendras peut-être des informations sur les personnes présentes dans la pièce avant le meurtre.</p> 
+    <div id="image-droite"> <img src="potion.jpeg"> </div>
+</div>
+
+<p id="texte2"> Choisis un des trois éléments suivants à analyser : </p>
+
+<div id="choix"> <button id="bouton1" onclick="hide1()"  class="elements"> LE SANG SUR LE SOL </button>
+<button  id="bouton2"  onclick="hide2()"  class="elements"> LES VERRES A PIEDS </button>
+<button id="bouton3"  onclick="hide3()"  class="elements"> LES EMPREINTES SUR LE SOL </button>
+</div>
+
+<p id="réponse1" class="réponses" hidden> Les analyses ADN révèlent que le sang est celui de....<br><br> <br> <span id="joueur1">JOUEUR 1 </span> </p>
+<p id="réponse2" class="réponses" hidden> Les analyses ADN révèlent que les personnes qui ont utilisé ces verres sont....<br><br> <br> <span id="joueur2">JOUEUR 2 </span> </p>
+<p id="réponse3" class="réponses" hidden> Les analyses ADN révèlent que les empreintes appartiennent à....<br><br> <br> <span id="joueur3">JOUEUR 3 </span> </p>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

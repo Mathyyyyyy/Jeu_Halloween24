@@ -1,0 +1,115 @@
+/* En général */
+
+body {
+
+    background-color:white;
+    width: 50vw;
+    margin: 0 auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+
+/* Les textes */
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#texte1{
+    align-content: center;
+    font-size: larger;
+    background-color: white;
+    margin-right: 8px;
+    text-align: justify;
+
+    padding: 0 10px;
+
+    border-left: 4px solid #B0F2B6;
+    background-color: #B0F2B655;
+
+}
+
+#texte2{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.elements{
+
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: black;
+    width: fit-content;
+    background-color: blueviolet;
+    color:whitesmoke;
+    font-weight: bold;
+   padding: 7px;
+
+}
+
+/* Positionnement des trois boutons choix sur l'écran*/
+
+#choix {
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 20%;   
+    margin: 1%;
+
+
+}
+
+/*Affichage des réponses*/ 
+
+.réponses{
+    font-size: 17px;
+}
+
+#joueur1{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#joueur2{
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+#joueur3{
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+/*Taille et postionnement de l'image*/
+
+img {
+
+    width: 13vw;
+}
+   
+#image-droite {
+
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1px;
+}
+
+/*faire en sorte que l'image + texte 1 soient alignés*/
+
+#image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
